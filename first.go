@@ -35,5 +35,5 @@ func Scan(a *int) (int, error) {
 	return fmt.Fscan(r, a)
 }
 
-var r = strings.NewReader(`4
-10 20 30 50`)
+var r = strings.NewReader(`5
+10 20 30 50 60`)
